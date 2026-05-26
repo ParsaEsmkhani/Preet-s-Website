@@ -93,15 +93,13 @@ a {
   letter-spacing: 0;
 }
 
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  color: #fff;
-  background: conic-gradient(from 120deg, var(--rose), var(--jade), var(--marigold), var(--rose));
-  font-size: 0.86rem;
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
 }
 
 .nav-links {
@@ -278,6 +276,15 @@ h3 {
 .hero-art img {
   width: min(100%, 620px);
   height: auto;
+}
+
+.hero-art.logo-showcase {
+  background: #fff;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.hero-art.logo-showcase img {
+  width: min(100%, 560px);
 }
 
 .section {

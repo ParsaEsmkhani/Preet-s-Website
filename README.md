@@ -1,4 +1,4 @@
-# Preet Henna Website
+# Mehndi by Preet Website
 
 A static GitHub Pages website for Preet's henna art portfolio.
 
