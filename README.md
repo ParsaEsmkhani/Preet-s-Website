@@ -15,7 +15,7 @@ A static GitHub Pages website for Preet's henna art portfolio.
 
 Current contact details are set in `contact.html` and `script.js`:
 
-- `gkbains@mun.ca`
+- `mehndibypreetbains@gmail.com`
 - `+1 (709) 725-7752`
 
 Replace the starter SVG artwork in `assets/` with Preet's real henna photos when you have them.
