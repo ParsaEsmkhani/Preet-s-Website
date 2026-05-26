@@ -166,6 +166,17 @@ a {
   max-width: 620px;
 }
 
+.gift-note {
+  width: fit-content;
+  margin: 0 0 1rem;
+  padding: 0.55rem 0.75rem;
+  color: var(--rose-dark);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--marigold);
+  border-radius: 6px;
+}
+
 .eyebrow {
   margin: 0 0 0.8rem;
   color: var(--jade);
