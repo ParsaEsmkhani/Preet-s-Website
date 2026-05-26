@@ -16,7 +16,7 @@ A static GitHub Pages website for Preet's henna art portfolio.
 Current contact details are set in `contact.html` and `script.js`:
 
 - `mehndibypreetbains@gmail.com`
-- `+1 (709) 725-7752`
+- `https://www.instagram.com/mehndibypreet/`
 - Formspree endpoint: `https://formspree.io/f/mqejywnv`
 
 Replace the starter SVG artwork in `assets/` with Preet's real henna photos when you have them.
