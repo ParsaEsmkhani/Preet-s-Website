@@ -85,26 +85,42 @@ if (portfolioGrid && lightbox && lightboxImage && lightboxClose) {
 const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {
-  contactForm.addEventListener("submit", (event) => {
+  const formStatus = contactForm.querySelector(".form-status");
+  const submitButton = contactForm.querySelector("button[type='submit']");
+
+  contactForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
     const data = new FormData(contactForm);
-    const recipient = contactForm.dataset.contactEmail || "mehndibypreetbains@gmail.com";
-    const name = data.get("name") || "";
-    const email = data.get("email") || "";
-    const occasion = data.get("occasion") || "";
-    const date = data.get("date") || "";
-    const message = data.get("message") || "";
-    const subject = `Henna inquiry from ${name}`;
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      `Occasion: ${occasion}`,
-      `Preferred date: ${date}`,
-      "",
-      message
-    ].join("\n");
+    const originalLabel = submitButton.textContent;
 
-    window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    submitButton.disabled = true;
+    submitButton.textContent = "Sending...";
+    formStatus.textContent = "";
+    formStatus.classList.remove("is-error", "is-success");
+
+    try {
+      const response = await fetch(contactForm.action, {
+        method: "POST",
+        body: data,
+        headers: {
+          Accept: "application/json"
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      contactForm.reset();
+      formStatus.textContent = "Thanks. Your inquiry has been sent.";
+      formStatus.classList.add("is-success");
+    } catch (error) {
+      formStatus.textContent = "Something went wrong. Please email mehndibypreetbains@gmail.com directly.";
+      formStatus.classList.add("is-error");
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = originalLabel;
+    }
   });
 }

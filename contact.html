@@ -48,7 +48,8 @@
           </div>
         </div>
 
-        <form class="contact-form" data-contact-email="mehndibypreetbains@gmail.com">
+        <form class="contact-form" action="https://formspree.io/f/mqejywnv" method="POST">
+          <input type="hidden" name="_subject" value="New henna inquiry from Mehndi by Preet">
           <label>
             Name
             <input name="name" type="text" autocomplete="name" required>
@@ -75,6 +76,7 @@
             Message
             <textarea name="message" rows="6" required></textarea>
           </label>
+          <p class="form-status full" role="status" aria-live="polite"></p>
           <button class="button primary full" type="submit">Send inquiry</button>
         </form>
       </section>

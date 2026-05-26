@@ -17,6 +17,7 @@ Current contact details are set in `contact.html` and `script.js`:
 
 - `mehndibypreetbains@gmail.com`
 - `+1 (709) 725-7752`
+- Formspree endpoint: `https://formspree.io/f/mqejywnv`
 
 Replace the starter SVG artwork in `assets/` with Preet's real henna photos when you have them.
 

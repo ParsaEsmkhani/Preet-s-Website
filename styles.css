@@ -720,6 +720,26 @@ h3 {
   border-color: var(--marigold);
 }
 
+.form-status {
+  min-height: 1.6rem;
+  margin: 0;
+  font-weight: 800;
+}
+
+.form-status.is-success {
+  color: var(--jade);
+}
+
+.form-status.is-error {
+  color: var(--rose);
+}
+
+.contact-form button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+  transform: none;
+}
+
 .full {
   grid-column: 1 / -1;
 }
