@@ -713,6 +713,20 @@ h3 {
   font-weight: 900;
 }
 
+.contact-form .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.contact-form .checkbox-label input {
+  flex: 0 0 auto;
+  width: 1.05rem;
+  height: 1.05rem;
+  padding: 0;
+  accent-color: var(--rose);
+}
+
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
