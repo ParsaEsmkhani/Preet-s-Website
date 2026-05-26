@@ -87,6 +87,18 @@ const contactForm = document.querySelector(".contact-form");
 if (contactForm) {
   const formStatus = contactForm.querySelector(".form-status");
   const submitButton = contactForm.querySelector("button[type='submit']");
+  const dateInput = contactForm.querySelector("input[name='date']");
+  const unsureDateInput = contactForm.querySelector("input[name='date_status']");
+
+  if (dateInput && unsureDateInput) {
+    unsureDateInput.addEventListener("change", () => {
+      dateInput.disabled = unsureDateInput.checked;
+
+      if (unsureDateInput.checked) {
+        dateInput.value = "";
+      }
+    });
+  }
 
   contactForm.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -113,6 +125,9 @@ if (contactForm) {
       }
 
       contactForm.reset();
+      if (dateInput) {
+        dateInput.disabled = false;
+      }
       formStatus.textContent = "Thanks. Your inquiry has been sent.";
       formStatus.classList.add("is-success");
     } catch (error) {

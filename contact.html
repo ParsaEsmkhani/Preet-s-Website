@@ -78,10 +78,16 @@
               <option>Other</option>
             </select>
           </label>
-          <label>
-            Preferred date
-            <input name="date" type="date">
-          </label>
+          <div class="date-field">
+            <label>
+              Preferred date
+              <input name="date" type="date">
+            </label>
+            <label class="date-unsure">
+              <input name="date_status" type="checkbox" value="Not sure yet">
+              <span>Not sure yet</span>
+            </label>
+          </div>
           <label class="full">
             Message
             <textarea name="message" rows="6" required></textarea>
