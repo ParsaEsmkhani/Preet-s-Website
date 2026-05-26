@@ -26,6 +26,62 @@ filterButtons.forEach((button) => {
   });
 });
 
+const portfolioGrid = document.querySelector("[data-portfolio-grid]");
+const portfolioCount = portfolioGrid ? Number(portfolioGrid.dataset.count) : 0;
+
+if (portfolioGrid && portfolioCount > 0) {
+  const fragment = document.createDocumentFragment();
+
+  for (let index = 1; index <= portfolioCount; index += 1) {
+    const number = String(index).padStart(2, "0");
+    const src = `assets/catalogue/design-${number}.jpg`;
+    const button = document.createElement("button");
+    const image = document.createElement("img");
+
+    button.className = "portfolio-card";
+    button.type = "button";
+    button.dataset.full = src;
+    button.setAttribute("aria-label", `View henna design ${number}`);
+
+    image.src = src;
+    image.alt = `Henna design ${number} by Mehndi by Preet`;
+    image.loading = "lazy";
+
+    button.append(image);
+    fragment.append(button);
+  }
+
+  portfolioGrid.append(fragment);
+}
+
+const lightbox = document.querySelector(".lightbox");
+const lightboxImage = lightbox ? lightbox.querySelector("img") : null;
+const lightboxClose = lightbox ? lightbox.querySelector(".lightbox-close") : null;
+
+if (portfolioGrid && lightbox && lightboxImage && lightboxClose) {
+  portfolioGrid.addEventListener("click", (event) => {
+    const card = event.target.closest(".portfolio-card");
+
+    if (!card) {
+      return;
+    }
+
+    lightboxImage.src = card.dataset.full;
+    lightboxImage.alt = card.querySelector("img").alt;
+    lightbox.showModal();
+  });
+
+  lightboxClose.addEventListener("click", () => {
+    lightbox.close();
+  });
+
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) {
+      lightbox.close();
+    }
+  });
+}
+
 const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {
