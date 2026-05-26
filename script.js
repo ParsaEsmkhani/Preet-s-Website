@@ -89,7 +89,7 @@ if (contactForm) {
     event.preventDefault();
 
     const data = new FormData(contactForm);
-    const recipient = contactForm.dataset.contactEmail || "preet@example.com";
+    const recipient = contactForm.dataset.contactEmail || "gkbains@mun.ca";
     const name = data.get("name") || "";
     const email = data.get("email") || "";
     const occasion = data.get("occasion") || "";

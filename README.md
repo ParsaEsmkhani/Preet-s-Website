@@ -13,11 +13,10 @@ A static GitHub Pages website for Preet's henna art portfolio.
 
 ## Update Before Publishing
 
-Replace the placeholder contact details in `contact.html` and `script.js`:
+Current contact details are set in `contact.html` and `script.js`:
 
-- `preet@example.com`
-- `+1 000 000 0000`
-- Instagram link
+- `gkbains@mun.ca`
+- `+1 (709) 725-7752`
 
 Replace the starter SVG artwork in `assets/` with Preet's real henna photos when you have them.
 
