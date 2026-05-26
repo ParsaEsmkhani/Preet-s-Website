@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Bridal henna pattern preview</title>
+  <rect width="640" height="480" fill="#fff7ee"/>
+  <path d="M92 395c64-97 136-149 218-158 91-10 170 35 238 135" fill="none" stroke="#4f1624" stroke-width="11" stroke-linecap="round"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="320" cy="222" r="74" stroke="#7d2638" stroke-width="8"/>
+    <circle cx="320" cy="222" r="38" stroke="#1f6f61" stroke-width="6"/>
+    <path d="M320 148c18 24 36 43 60 58M394 222c-25 13-49 21-74 21M320 296c-17-23-37-41-61-57M246 222c23-14 48-21 74-21" stroke="#d79a33" stroke-width="6"/>
+    <path d="M172 357c38-22 62-51 73-88M468 350c-33-21-55-47-67-78" stroke="#7d2638" stroke-width="7"/>
+    <path d="M126 122c45 22 80 54 105 96M514 118c-45 23-80 56-104 98" stroke="#1f6f61" stroke-width="6"/>
+    <path d="M320 52c18 31 18 31 0 61-19-30-19-30 0-61zM237 96c34 11 34 11 45 45-35-10-35-10-45-45zM403 96c-34 11-34 11-45 45 35-10 35-10 45-45z" stroke="#7d2638" stroke-width="6"/>
+  </g>
+</svg>

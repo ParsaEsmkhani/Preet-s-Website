@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Traditional henna pattern preview</title>
+  <rect width="640" height="480" fill="#fff7ee"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M98 385c63-78 133-124 211-137 89-15 167 17 233 96" stroke="#4f1624" stroke-width="11"/>
+    <circle cx="320" cy="226" r="84" stroke="#7d2638" stroke-width="8"/>
+    <circle cx="320" cy="226" r="54" stroke="#1f6f61" stroke-width="5"/>
+    <circle cx="320" cy="226" r="24" stroke="#d79a33" stroke-width="6"/>
+    <path d="M320 142v168M236 226h168M260 166l120 120M380 166 260 286" stroke="#7d2638" stroke-width="4"/>
+    <path d="M160 206c43-45 89-75 138-88M480 204c-42-45-88-75-138-88" stroke="#1f6f61" stroke-width="6"/>
+    <path d="M138 113c36 15 36 15 51 51-36-14-36-14-51-51zM502 113c-36 15-36 15-51 51 36-14 36-14 51-51zM320 62c21 34 21 34 0 68-21-34-21-34 0-68z" stroke="#d79a33" stroke-width="7"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+  <title id="title">Henna inspired hand artwork</title>
+  <desc id="desc">A stylized hand with henna floral patterns and decorative leaves.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ee"/>
+      <stop offset="1" stop-color="#f0fbf7"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="#d79a33" opacity="0.4"/>
+      <circle cx="19" cy="19" r="1.6" fill="#7d2638" opacity="0.28"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="680" fill="url(#bg)"/>
+  <rect width="900" height="680" fill="url(#dots)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M478 576c-82-7-147-45-181-106-23-42-24-89-4-127 12-23 31-45 58-66V130c0-25 15-43 37-43 23 0 38 18 38 43v114h18V85c0-26 16-44 39-44 24 0 40 18 40 44v160h18V119c0-25 16-43 39-43s39 18 39 43v157c32 13 62 33 85 59 44 50 60 117 39 168-29 70-115 82-255 73z" fill="#fffdf9" stroke="#4f1624" stroke-width="9"/>
+    <path d="M619 276v-89c0-25 15-42 37-42 23 0 38 17 38 42v190" stroke="#4f1624" stroke-width="9"/>
+    <path d="M426 244v119M523 245v116M619 276v93" stroke="#4f1624" stroke-width="6" opacity="0.35"/>
+    <circle cx="502" cy="414" r="64" stroke="#7d2638" stroke-width="7"/>
+    <circle cx="502" cy="414" r="34" stroke="#1f6f61" stroke-width="6"/>
+    <circle cx="502" cy="414" r="9" fill="#d79a33" stroke="#d79a33" stroke-width="2"/>
+    <path d="M502 350c14 18 29 34 48 48M566 414c-20 10-41 18-64 18M502 478c-13-17-30-32-49-47M438 414c19-11 41-17 64-18" stroke="#7d2638" stroke-width="5"/>
+    <path d="M385 167c25 14 25 14 0 29-25-15-25-15 0-29zM385 213c30 16 30 16 0 33-30-17-30-17 0-33zM481 117c30 16 30 16 0 32-29-16-29-16 0-32zM481 171c36 18 36 18 0 36-35-18-35-18 0-36zM578 151c29 16 29 16 0 32-29-16-29-16 0-32zM578 203c35 18 35 18 0 36-35-18-35-18 0-36z" stroke="#1f6f61" stroke-width="5"/>
+    <path d="M340 413c46 4 84 24 113 58M650 420c-36 28-76 43-121 46" stroke="#d79a33" stroke-width="6"/>
+    <path d="M214 217c44 25 79 59 106 101M720 112c-39 30-66 68-81 115M187 482c52-3 97 7 136 30M718 574c-39-24-80-37-124-39" stroke="#7d2638" stroke-width="5" opacity="0.45"/>
+  </g>
+  <g fill="#d79a33" opacity="0.9">
+    <circle cx="233" cy="247" r="7"/>
+    <circle cx="253" cy="269" r="4"/>
+    <circle cx="703" cy="156" r="6"/>
+    <circle cx="682" cy="183" r="4"/>
+    <circle cx="231" cy="492" r="6"/>
+    <circle cx="683" cy="552" r="5"/>
+  </g>
+</svg>

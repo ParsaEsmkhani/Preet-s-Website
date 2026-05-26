@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 720" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">An elegant illustrated portrait placeholder with henna inspired floral details.</desc>
+  <rect width="620" height="720" fill="#f4fbf7"/>
+  <circle cx="310" cy="236" r="116" fill="#fffdf9" stroke="#4f1624" stroke-width="8"/>
+  <path d="M164 640c28-125 77-188 146-188s118 63 146 188" fill="#fffdf9" stroke="#4f1624" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M215 216c29-79 81-119 157-119 70 23 112 69 126 138-79-11-142-42-188-95-27 47-58 72-95 76z" fill="#7d2638" stroke="#4f1624" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M224 497c35 30 64 65 86 105M396 497c-35 30-64 65-86 105" stroke="#1f6f61" stroke-width="6"/>
+    <circle cx="310" cy="576" r="36" stroke="#d79a33" stroke-width="6"/>
+    <path d="M310 540c10 13 22 24 36 32M346 576c-13 10-25 22-36 36M310 612c-10-13-22-24-36-32M274 576c13-10 25-22 36-36" stroke="#7d2638" stroke-width="5"/>
+    <path d="M116 151c51 28 88 68 112 121M504 151c-51 28-88 68-112 121" stroke="#1f6f61" stroke-width="6"/>
+    <path d="M112 410c50-4 91 8 124 35M508 410c-50-4-91 8-124 35" stroke="#d79a33" stroke-width="6"/>
+  </g>
+</svg>

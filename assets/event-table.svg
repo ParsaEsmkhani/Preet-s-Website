@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title">
+  <title id="title">Henna event table illustration</title>
+  <rect width="760" height="520" fill="#fff7ee"/>
+  <path d="M96 332h568v102H96z" fill="#fffdf9" stroke="#4f1624" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M139 332c0 66 50 98 111 98s111-32 111-98M399 332c0 66 50 98 111 98s111-32 111-98" fill="none" stroke="#d79a33" stroke-width="7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 262c55-50 113-73 173-69 53 4 101 26 144 67" stroke="#4f1624" stroke-width="9"/>
+    <circle cx="381" cy="197" r="48" stroke="#7d2638" stroke-width="8"/>
+    <circle cx="381" cy="197" r="19" stroke="#1f6f61" stroke-width="6"/>
+    <path d="M190 123c37 23 64 54 82 92M571 124c-38 23-65 54-82 92" stroke="#1f6f61" stroke-width="6"/>
+    <path d="M381 77c23 34 23 34 0 68-22-34-22-34 0-68zM246 139c35 12 35 12 48 47-35-12-35-12-48-47zM516 139c-35 12-35 12-48 47 35-12 35-12 48-47z" stroke="#7d2638" stroke-width="6"/>
+  </g>
+</svg>

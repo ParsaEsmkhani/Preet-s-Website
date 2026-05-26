@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Party henna pattern preview</title>
+  <rect width="640" height="480" fill="#f4fbf7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M89 344c108-104 217-123 326-57 45 27 88 65 136 113" stroke="#4f1624" stroke-width="10"/>
+    <path d="M158 301c17-74 70-123 159-147 72 16 125 57 159 124" stroke="#1f6f61" stroke-width="7"/>
+    <circle cx="318" cy="203" r="48" stroke="#7d2638" stroke-width="8"/>
+    <circle cx="318" cy="203" r="18" stroke="#d79a33" stroke-width="6"/>
+    <path d="M318 155c14 17 31 31 49 41M366 203c-17 13-33 26-48 48M318 251c-14-17-30-31-49-41M270 203c16-14 32-27 48-48" stroke="#7d2638" stroke-width="5"/>
+    <path d="M175 177c39 0 72 14 99 41M465 187c-36 1-67 13-92 38" stroke="#d79a33" stroke-width="6"/>
+    <path d="M111 122c32 16 32 16 0 33-31-17-31-17 0-33zM532 128c32 16 32 16 0 33-32-17-32-17 0-33zM229 90c21 31 21 31 0 62-22-31-22-31 0-62zM409 87c22 31 22 31 0 63-21-32-21-32 0-63z" stroke="#7d2638" stroke-width="6"/>
+  </g>
+</svg>

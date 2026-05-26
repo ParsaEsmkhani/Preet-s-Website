@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Modern henna pattern preview</title>
+  <rect width="640" height="480" fill="#fffdf9"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M155 398c102-88 201-129 298-123" stroke="#4f1624" stroke-width="10"/>
+    <path d="M218 333c13-64 45-112 95-145M323 278c15-59 49-105 102-138" stroke="#1f6f61" stroke-width="7"/>
+    <path d="M268 222c35 12 35 12 47 48-36-12-36-12-47-48zM375 174c34 12 34 12 46 47-35-11-35-11-46-47zM181 350c36 7 36 7 51 40-36-7-36-7-51-40z" stroke="#7d2638" stroke-width="7"/>
+    <circle cx="449" cy="133" r="29" stroke="#d79a33" stroke-width="7"/>
+    <circle cx="315" cy="171" r="22" stroke="#7d2638" stroke-width="6"/>
+    <path d="M108 130c47 26 78 61 95 105M524 304c-49 14-91 36-127 67" stroke="#d79a33" stroke-width="6"/>
+  </g>
+</svg>

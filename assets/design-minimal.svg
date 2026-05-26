@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+  <title id="title">Minimal henna pattern preview</title>
+  <rect width="640" height="480" fill="#f4fbf7"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M136 364c85-63 168-91 250-84 45 4 84 18 118 42" stroke="#4f1624" stroke-width="10"/>
+    <path d="M213 323c34-20 58-48 72-84M345 278c27-38 59-67 96-86" stroke="#1f6f61" stroke-width="7"/>
+    <path d="M279 213c28 12 28 12 39 41-29-12-29-12-39-41zM446 166c28 12 28 12 39 41-29-12-29-12-39-41z" stroke="#7d2638" stroke-width="7"/>
+    <circle cx="204" cy="326" r="18" stroke="#d79a33" stroke-width="6"/>
+    <circle cx="371" cy="273" r="15" stroke="#d79a33" stroke-width="5"/>
+    <path d="M165 154c37 33 62 71 74 115M503 288c-34 16-66 36-94 62" stroke="#7d2638" stroke-width="5"/>
+  </g>
+</svg>
