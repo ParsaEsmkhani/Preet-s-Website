@@ -28,6 +28,37 @@ body {
   line-height: 1.6;
 }
 
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  width: min(34vw, 430px);
+  aspect-ratio: 696 / 252;
+  pointer-events: none;
+  background: url("assets/logo-ornament.png") center / contain no-repeat;
+  opacity: 0.075;
+  mix-blend-mode: multiply;
+}
+
+body::before {
+  left: -210px;
+  top: 22vh;
+  transform: rotate(90deg);
+}
+
+body::after {
+  right: -210px;
+  top: 54vh;
+  transform: rotate(-90deg);
+}
+
+main,
+.site-footer {
+  position: relative;
+  z-index: 1;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -817,6 +848,20 @@ h3 {
 }
 
 @media (max-width: 900px) {
+  body::before,
+  body::after {
+    width: 360px;
+    opacity: 0.045;
+  }
+
+  body::before {
+    left: -250px;
+  }
+
+  body::after {
+    right: -250px;
+  }
+
   .nav-toggle {
     display: block;
   }
@@ -868,6 +913,11 @@ h3 {
 }
 
 @media (max-width: 620px) {
+  body::before,
+  body::after {
+    display: none;
+  }
+
   .nav {
     width: min(var(--max), calc(100% - 1rem));
   }
