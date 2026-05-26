@@ -683,9 +683,21 @@ h3 {
 }
 
 .contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: fit-content;
   text-decoration: none;
   font-weight: 900;
   color: var(--rose);
+}
+
+.social-link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
 }
 
 .contact-form {
