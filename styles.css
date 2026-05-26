@@ -785,6 +785,11 @@ h3 {
   color: var(--muted);
 }
 
+.site-footer .rights-notice {
+  max-width: 620px;
+  font-size: 0.86rem;
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
