@@ -34,7 +34,7 @@ body::after {
   position: fixed;
   z-index: 0;
   width: min(34vw, 430px);
-  aspect-ratio: 696 / 252;
+  aspect-ratio: 1314 / 380;
   pointer-events: none;
   background: url("assets/logo-ornament.png") center / contain no-repeat;
   opacity: 0.075;
@@ -125,9 +125,9 @@ a {
 }
 
 .brand-logo {
-  width: 48px;
+  width: 76px;
   height: 48px;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: #fff;
@@ -326,7 +326,7 @@ h3 {
 }
 
 .hero-art.logo-showcase img {
-  width: min(100%, 560px);
+  width: min(100%, 720px);
 }
 
 .section {
