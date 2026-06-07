@@ -501,6 +501,25 @@ h3 {
   object-fit: cover;
 }
 
+.about-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.about-photo-grid img {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 34px rgba(45, 26, 31, 0.08);
+}
+
 .story .lead {
   margin-top: 0;
   color: var(--ink);
@@ -1069,6 +1088,10 @@ h3 {
     min-height: 360px;
   }
 
+  .about-photo-grid img {
+    min-height: 420px;
+  }
+
   .card-grid.three,
   .catalogue-grid,
   .timeline,
@@ -1219,6 +1242,15 @@ h3 {
 
   .carousel-control {
     display: none;
+  }
+
+  .about-photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-photo-grid img {
+    min-height: auto;
+    aspect-ratio: 3 / 4;
   }
 
   .service-card {
