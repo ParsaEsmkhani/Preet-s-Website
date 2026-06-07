@@ -649,23 +649,53 @@ h3 {
   font-weight: 900;
 }
 
+.catalogue-carousel {
+  position: relative;
+}
+
 .portfolio-grid {
-  columns: 3 260px;
-  column-gap: 1rem;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0.25rem 0.2rem 1.25rem;
+  scroll-behavior: smooth;
+  scroll-padding-inline: 0.2rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: rgba(129, 49, 36, 0.55) transparent;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.portfolio-grid::-webkit-scrollbar {
+  height: 10px;
+}
+
+.portfolio-grid::-webkit-scrollbar-track {
+  background: rgba(129, 49, 36, 0.08);
+  border-radius: 999px;
+}
+
+.portfolio-grid::-webkit-scrollbar-thumb {
+  background: rgba(129, 49, 36, 0.48);
+  border-radius: 999px;
 }
 
 .portfolio-card {
-  display: block;
-  width: 100%;
-  margin: 0 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 clamp(240px, 30vw, 360px);
+  aspect-ratio: 3 / 4;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  break-inside: avoid;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 12px 34px rgba(45, 26, 31, 0.08);
   cursor: zoom-in;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
@@ -676,7 +706,44 @@ h3 {
 
 .portfolio-card img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  background: #fff;
+  object-fit: contain;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(129, 49, 36, 0.18);
+  border-radius: 6px;
+  color: var(--rose-dark);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 28px rgba(45, 26, 31, 0.18);
+  cursor: pointer;
+  font: 900 1.5rem/1 Arial, sans-serif;
+  transform: translateY(-50%);
+  transition: background 160ms ease, color 160ms ease, opacity 160ms ease;
+}
+
+.carousel-control:hover {
+  color: #fff;
+  background: var(--rose);
+}
+
+.carousel-control:disabled {
+  cursor: not-allowed;
+  opacity: 0.32;
+}
+
+.carousel-control-previous {
+  left: -0.75rem;
+}
+
+.carousel-control-next {
+  right: -0.75rem;
 }
 
 .lightbox {
@@ -974,6 +1041,14 @@ h3 {
   .values {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .carousel-control-previous {
+    left: 0.35rem;
+  }
+
+  .carousel-control-next {
+    right: 0.35rem;
+  }
 }
 
 @media (max-width: 620px) {
@@ -1031,6 +1106,19 @@ h3 {
 
   .category-nav a {
     width: 100%;
+  }
+
+  .portfolio-grid {
+    padding-inline: 0;
+    scroll-padding-inline: 0;
+  }
+
+  .portfolio-card {
+    flex-basis: min(82vw, 330px);
+  }
+
+  .carousel-control {
+    display: none;
   }
 
   .service-card {

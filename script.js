@@ -31,6 +31,17 @@ const catalogueSections = document.querySelector("[data-catalogue-sections]");
 const catalogueCategories = window.catalogueCategories || [];
 
 if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
+  const createCarouselControl = (direction, label) => {
+    const button = document.createElement("button");
+
+    button.className = `carousel-control carousel-control-${direction}`;
+    button.type = "button";
+    button.setAttribute("aria-label", label);
+    button.textContent = direction === "previous" ? "<" : ">";
+
+    return button;
+  };
+
   const navFragment = document.createDocumentFragment();
   const sectionsFragment = document.createDocumentFragment();
 
@@ -55,8 +66,16 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
 
     header.append(title, count);
 
+    const carousel = document.createElement("div");
+    carousel.className = "catalogue-carousel";
+
+    const previousButton = createCarouselControl("previous", `Slide ${category.title} designs left`);
+    const nextButton = createCarouselControl("next", `Slide ${category.title} designs right`);
+
     const grid = document.createElement("div");
     grid.className = "portfolio-grid";
+    grid.tabIndex = 0;
+    grid.setAttribute("aria-label", `${category.title} design carousel`);
 
     category.images.forEach((item, index) => {
       const number = String(index + 1).padStart(2, "0");
@@ -78,7 +97,33 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
       grid.append(button);
     });
 
-    section.append(header, grid);
+    const scrollCarousel = (direction) => {
+      const firstCard = grid.querySelector(".portfolio-card");
+      const styles = window.getComputedStyle(grid);
+      const gap = parseFloat(styles.columnGap || styles.gap) || 16;
+      const distance = firstCard ? firstCard.getBoundingClientRect().width + gap : grid.clientWidth * 0.9;
+
+      grid.scrollBy({
+        left: direction * distance,
+        behavior: "smooth"
+      });
+    };
+
+    const updateControls = () => {
+      const maxScroll = grid.scrollWidth - grid.clientWidth - 2;
+
+      previousButton.disabled = grid.scrollLeft <= 2;
+      nextButton.disabled = grid.scrollLeft >= maxScroll;
+    };
+
+    previousButton.addEventListener("click", () => scrollCarousel(-1));
+    nextButton.addEventListener("click", () => scrollCarousel(1));
+    grid.addEventListener("scroll", updateControls, { passive: true });
+    window.addEventListener("resize", updateControls);
+    window.requestAnimationFrame(updateControls);
+
+    carousel.append(previousButton, grid, nextButton);
+    section.append(header, carousel);
     sectionsFragment.append(section);
   });
 
