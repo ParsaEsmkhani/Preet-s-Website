@@ -26,40 +26,73 @@ filterButtons.forEach((button) => {
   });
 });
 
-const portfolioGrid = document.querySelector("[data-portfolio-grid]");
-const portfolioCount = portfolioGrid ? Number(portfolioGrid.dataset.count) : 0;
+const catalogueNav = document.querySelector("[data-catalogue-nav]");
+const catalogueSections = document.querySelector("[data-catalogue-sections]");
+const catalogueCategories = window.catalogueCategories || [];
 
-if (portfolioGrid && portfolioCount > 0) {
-  const fragment = document.createDocumentFragment();
+if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
+  const navFragment = document.createDocumentFragment();
+  const sectionsFragment = document.createDocumentFragment();
 
-  for (let index = 1; index <= portfolioCount; index += 1) {
-    const number = String(index).padStart(2, "0");
-    const src = `assets/catalogue/design-${number}.jpg`;
-    const button = document.createElement("button");
-    const image = document.createElement("img");
+  catalogueCategories.forEach((category) => {
+    const navLink = document.createElement("a");
+    navLink.href = `#${category.slug}`;
+    navLink.textContent = `${category.title} (${category.count})`;
+    navFragment.append(navLink);
 
-    button.className = "portfolio-card";
-    button.type = "button";
-    button.dataset.full = src;
-    button.setAttribute("aria-label", `View henna design ${number}`);
+    const section = document.createElement("section");
+    section.className = "catalogue-category";
+    section.id = category.slug;
 
-    image.src = src;
-    image.alt = `Henna design ${number} by Mehndi by Preet`;
-    image.loading = "lazy";
+    const header = document.createElement("div");
+    header.className = "category-heading";
 
-    button.append(image);
-    fragment.append(button);
-  }
+    const title = document.createElement("h3");
+    title.textContent = category.title;
 
-  portfolioGrid.append(fragment);
+    const count = document.createElement("span");
+    count.textContent = `${category.count} designs`;
+
+    header.append(title, count);
+
+    const grid = document.createElement("div");
+    grid.className = "portfolio-grid";
+
+    category.images.forEach((item, index) => {
+      const number = String(index + 1).padStart(2, "0");
+      const button = document.createElement("button");
+      const image = document.createElement("img");
+
+      button.className = "portfolio-card";
+      button.type = "button";
+      button.dataset.full = item.src;
+      button.setAttribute("aria-label", `View ${category.title} henna design ${number}`);
+
+      image.src = item.src;
+      image.alt = `${category.title} henna design ${number} by Mehndi by Preet`;
+      image.loading = "lazy";
+      image.width = item.width;
+      image.height = item.height;
+
+      button.append(image);
+      grid.append(button);
+    });
+
+    section.append(header, grid);
+    sectionsFragment.append(section);
+  });
+
+  catalogueNav.append(navFragment);
+  catalogueSections.append(sectionsFragment);
 }
 
 const lightbox = document.querySelector(".lightbox");
 const lightboxImage = lightbox ? lightbox.querySelector("img") : null;
 const lightboxClose = lightbox ? lightbox.querySelector(".lightbox-close") : null;
+const catalogueLightboxRoot = catalogueSections || document.querySelector("[data-portfolio-grid]");
 
-if (portfolioGrid && lightbox && lightboxImage && lightboxClose) {
-  portfolioGrid.addEventListener("click", (event) => {
+if (catalogueLightboxRoot && lightbox && lightboxImage && lightboxClose) {
+  catalogueLightboxRoot.addEventListener("click", (event) => {
     const card = event.target.closest(".portfolio-card");
 
     if (!card) {
