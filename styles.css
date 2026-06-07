@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
   color: var(--ink);
   background: var(--paper);
   line-height: 1.6;
+  overflow-x: clip;
 }
 
 body::before,
@@ -622,9 +624,11 @@ h3 {
 .catalogue-sections {
   display: grid;
   gap: clamp(2.5rem, 6vw, 5rem);
+  min-width: 0;
 }
 
 .catalogue-category {
+  min-width: 0;
   scroll-margin-top: 96px;
 }
 
@@ -651,7 +655,9 @@ h3 {
 
 .catalogue-carousel {
   position: relative;
+  width: 100%;
   max-width: 860px;
+  min-width: 0;
   margin: 0 auto;
   padding: 1rem 3rem 1.25rem;
   overflow: hidden;
@@ -665,6 +671,7 @@ h3 {
   display: flex;
   gap: 1rem;
   width: 100%;
+  min-width: 0;
   overflow-x: auto;
   padding: 0 0 1rem;
   overscroll-behavior-inline: contain;
@@ -1093,7 +1100,31 @@ h3 {
   .section,
   .page-hero,
   .site-footer {
-    width: min(var(--max), calc(100% - 1rem));
+    width: min(var(--max), calc(100% - 1.25rem));
+  }
+
+  .section {
+    padding: 2.35rem 0;
+  }
+
+  .page-hero {
+    padding: 2.6rem 0 1.75rem;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(2.45rem, 13vw, 3.3rem);
+  }
+
+  .page-hero p:not(.eyebrow) {
+    font-size: 1rem;
+  }
+
+  .section-heading {
+    margin-bottom: 1rem;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.85rem, 9vw, 2.35rem);
   }
 
   .hero-actions,
@@ -1130,23 +1161,60 @@ h3 {
   .category-heading {
     align-items: start;
     flex-direction: column;
+    gap: 0.45rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.65rem;
+  }
+
+  .category-heading h3 {
+    font-size: clamp(2rem, 11vw, 2.7rem);
+  }
+
+  .category-nav {
+    flex-wrap: nowrap;
+    gap: 0.55rem;
+    margin: 0 -0.625rem 1.65rem;
+    padding: 0 0.625rem 0.35rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .category-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .category-nav a {
-    width: 100%;
+    flex: 0 0 auto;
+    width: auto;
+    min-height: 38px;
+    padding: 0.5rem 0.7rem;
+    white-space: nowrap;
   }
 
   .catalogue-carousel {
-    padding: 0.75rem;
+    max-width: 100%;
+    margin-inline: -0.125rem;
+    padding: 0.65rem;
+    border-radius: 7px;
   }
 
   .portfolio-grid {
+    gap: 0.75rem;
     padding-bottom: 0.9rem;
   }
 
   .portfolio-card {
-    flex-basis: min(58vw, 220px);
-    aspect-ratio: 4 / 5;
+    flex-basis: clamp(156px, 48vw, 196px);
+    aspect-ratio: 3 / 4;
+  }
+
+  .portfolio-number {
+    right: 0.4rem;
+    top: 0.4rem;
+    min-width: 1.75rem;
+    min-height: 1.75rem;
+    font-size: 0.78rem;
   }
 
   .carousel-control {
