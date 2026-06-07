@@ -161,6 +161,13 @@ if (catalogueLightboxRoot && lightbox && lightboxImage && lightboxClose) {
   });
 }
 
+const eventList = document.querySelector("[data-event-list]");
+const eventTotal = document.querySelector("[data-event-total]");
+
+if (eventList && eventTotal) {
+  eventTotal.textContent = String(eventList.querySelectorAll("article").length);
+}
+
 const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {
