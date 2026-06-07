@@ -69,8 +69,8 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
     const carousel = document.createElement("div");
     carousel.className = "catalogue-carousel";
 
-    const previousButton = createCarouselControl("previous", `Slide ${category.title} designs left`);
-    const nextButton = createCarouselControl("next", `Slide ${category.title} designs right`);
+    const previousButton = createCarouselControl("previous", `Scroll ${category.title} designs left`);
+    const nextButton = createCarouselControl("next", `Scroll ${category.title} designs right`);
 
     const grid = document.createElement("div");
     grid.className = "portfolio-grid";
@@ -78,13 +78,15 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
     grid.setAttribute("aria-label", `${category.title} design carousel`);
 
     category.images.forEach((item, index) => {
-      const number = String(index + 1).padStart(2, "0");
+      const number = String(index + 1);
       const button = document.createElement("button");
       const image = document.createElement("img");
+      const badge = document.createElement("span");
 
       button.className = "portfolio-card";
       button.type = "button";
       button.dataset.full = item.src;
+      button.dataset.number = number;
       button.setAttribute("aria-label", `View ${category.title} henna design ${number}`);
 
       image.src = item.src;
@@ -93,18 +95,17 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
       image.width = item.width;
       image.height = item.height;
 
-      button.append(image);
+      badge.className = "portfolio-number";
+      badge.textContent = number;
+      badge.setAttribute("aria-hidden", "true");
+
+      button.append(image, badge);
       grid.append(button);
     });
 
     const scrollCarousel = (direction) => {
-      const firstCard = grid.querySelector(".portfolio-card");
-      const styles = window.getComputedStyle(grid);
-      const gap = parseFloat(styles.columnGap || styles.gap) || 16;
-      const distance = firstCard ? firstCard.getBoundingClientRect().width + gap : grid.clientWidth * 0.9;
-
       grid.scrollBy({
-        left: direction * distance,
+        left: direction * grid.clientWidth * 0.86,
         behavior: "smooth"
       });
     };
