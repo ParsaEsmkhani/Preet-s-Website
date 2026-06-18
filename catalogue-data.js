@@ -2,7 +2,7 @@ window.catalogueCategories = [
   {
     "slug": "bridal",
     "title": "Bridal",
-    "count": 7,
+    "count": 6,
     "images": [
       {
         "src": "assets/catalogue/bridal/bridal-017.jpg",
@@ -16,11 +16,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/bridal/bridal-009.jpg",
-        "width": 637,
-        "height": 850
-      },
-      {
-        "src": "assets/catalogue/bridal/bridal-008.jpg",
         "width": 637,
         "height": 850
       },
