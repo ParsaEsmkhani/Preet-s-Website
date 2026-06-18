@@ -258,7 +258,7 @@ window.catalogueCategories = [
   {
     "slug": "jagua-gel",
     "title": "Jagua Gel",
-    "count": 10,
+    "count": 9,
     "images": [
       {
         "src": "assets/catalogue/jagua-gel/jagua-gel-001.jpg",
@@ -267,11 +267,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/jagua-gel/jagua-gel-002.jpg",
-        "width": 637,
-        "height": 850
-      },
-      {
-        "src": "assets/catalogue/jagua-gel/jagua-gel-007.jpg",
         "width": 637,
         "height": 850
       },
