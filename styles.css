@@ -899,7 +899,24 @@ h3 {
 }
 
 .timeline.event-list article {
-  min-height: 160px;
+  display: flex;
+  min-height: 360px;
+  flex-direction: column;
+}
+
+.event-photo {
+  margin: auto 0 0;
+  padding-top: 1rem;
+}
+
+.event-photo img {
+  display: block;
+  width: 100%;
+  height: clamp(150px, 18vw, 210px);
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f8eee6;
 }
 
 .news-layout {
