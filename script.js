@@ -82,7 +82,6 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
       const number = String(index + 1);
       const button = document.createElement("button");
       const image = document.createElement("img");
-      const badge = document.createElement("span");
 
       button.className = "portfolio-card";
       button.type = "button";
@@ -96,11 +95,7 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
       image.width = item.width;
       image.height = item.height;
 
-      badge.className = "portfolio-number";
-      badge.textContent = number;
-      badge.setAttribute("aria-hidden", "true");
-
-      button.append(image, badge);
+      button.append(image);
       grid.append(button);
     });
 
