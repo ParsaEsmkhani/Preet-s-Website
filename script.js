@@ -28,6 +28,7 @@ filterButtons.forEach((button) => {
 
 const catalogueNav = document.querySelector("[data-catalogue-nav]");
 const catalogueSections = document.querySelector("[data-catalogue-sections]");
+const catalogueTotal = document.querySelector("[data-catalogue-total]");
 const catalogueCategories = window.catalogueCategories || [];
 
 if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
@@ -130,6 +131,11 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
 
   catalogueNav.append(navFragment);
   catalogueSections.append(sectionsFragment);
+
+  if (catalogueTotal) {
+    const total = catalogueCategories.reduce((sum, category) => sum + category.images.length, 0);
+    catalogueTotal.textContent = String(total);
+  }
 }
 
 const lightbox = document.querySelector(".lightbox");
