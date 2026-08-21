@@ -923,6 +923,11 @@ h3 {
   object-position: center bottom;
 }
 
+.event-photo img.event-photo-contain {
+  object-fit: contain;
+  background: #fffaf7;
+}
+
 .event-photo.placeholder {
   display: grid;
   place-items: center;

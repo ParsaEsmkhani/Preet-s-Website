@@ -756,9 +756,9 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-010.jpg",
-        "width": 1000,
-        "height": 750
+        "src": "assets/catalogue/jagua-gel/jagua-gel-ccnl-wave.jpg",
+        "width": 710,
+        "height": 678
       },
       {
         "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-011.jpg",
