@@ -727,8 +727,33 @@ window.catalogueCategories = [
   {
     "slug": "face-body-paint",
     "title": "Kids Face Paint",
-    "count": 35,
+    "count": 34,
     "images": [
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-018.jpg",
+        "width": 750,
+        "height": 1000
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-019.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-014.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-014.jpg",
         "width": 1000,
@@ -810,11 +835,6 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-002.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
         "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-003.jpg",
         "width": 1000,
         "height": 750
@@ -831,11 +851,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-008.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-009.jpg",
         "width": 1000,
         "height": 750
       },
@@ -860,32 +875,12 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-014.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
         "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-015.jpg",
         "width": 1000,
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-016.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
         "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-017.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-018.jpg",
-        "width": 750,
-        "height": 1000
-      },
-      {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-019.jpg",
         "width": 1000,
         "height": 750
       },
@@ -909,20 +904,10 @@ window.catalogueCategories = [
   {
     "slug": "festival-face-paint",
     "title": "Festival Face Paint",
-    "count": 8,
+    "count": 5,
     "images": [
       {
         "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-001.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-002.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-003.jpg",
         "width": 1000,
         "height": 750
       },
@@ -932,22 +917,17 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-005.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-006.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
         "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-007.jpg",
         "width": 1000,
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-008.jpg",
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-016.jpg",
         "width": 1000,
         "height": 750
       }
@@ -958,6 +938,26 @@ window.catalogueCategories = [
     "title": "Glow in the Dark",
     "count": 11,
     "images": [
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-013.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-002.jpg",
         "width": 1000,
@@ -970,16 +970,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-004.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-005.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-006.jpg",
         "width": 1000,
         "height": 750
       },
@@ -999,17 +989,7 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-011.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
         "src": "assets/catalogue/face-body-paint/face-body-paint-012.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-013.jpg",
         "width": 1000,
         "height": 750
       }
