@@ -47,9 +47,10 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
   const sectionsFragment = document.createDocumentFragment();
 
   catalogueCategories.forEach((category) => {
+    const categoryCount = category.images.length;
     const navLink = document.createElement("a");
     navLink.href = `#${category.slug}`;
-    navLink.textContent = `${category.title} (${category.count})`;
+    navLink.textContent = `${category.title} (${categoryCount})`;
     navFragment.append(navLink);
 
     const section = document.createElement("section");
@@ -63,7 +64,7 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
     title.textContent = category.title;
 
     const count = document.createElement("span");
-    count.textContent = `${category.count} designs`;
+    count.textContent = `${categoryCount} designs`;
 
     header.append(title, count);
 
@@ -82,20 +83,24 @@ if (catalogueNav && catalogueSections && catalogueCategories.length > 0) {
       const number = String(index + 1);
       const button = document.createElement("button");
       const image = document.createElement("img");
+      const indexBadge = document.createElement("span");
 
       button.className = "portfolio-card";
       button.type = "button";
       button.dataset.full = item.src;
       button.dataset.number = number;
-      button.setAttribute("aria-label", `View ${category.title} henna design ${number}`);
+      button.setAttribute("aria-label", `View ${category.title} design ${number}`);
 
       image.src = item.src;
-      image.alt = `${category.title} henna design ${number} by Mehndi by Preet`;
+      image.alt = `${category.title} design ${number} by Mehndi by Preet`;
       image.loading = "lazy";
       image.width = item.width;
       image.height = item.height;
 
-      button.append(image);
+      indexBadge.className = "portfolio-index";
+      indexBadge.textContent = number;
+
+      button.append(image, indexBadge);
       grid.append(button);
     });
 

@@ -348,5 +348,162 @@ window.catalogueCategories = [
         "height": 850
       }
     ]
+  },
+  {
+    "slug": "face-body-paint",
+    "title": "Face/Body Paint",
+    "count": 30,
+    "images": [
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-008.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-010.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-012.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-013.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-014.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-015.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-016.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-017.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-018.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-019.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-020.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-021.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-022.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-023.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-024.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-025.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-026.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-027.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-028.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-029.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-030.jpg",
+        "width": 1000,
+        "height": 750
+      }
+    ]
   }
 ];
