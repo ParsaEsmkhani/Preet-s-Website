@@ -352,70 +352,10 @@ window.catalogueCategories = [
   {
     "slug": "face-body-paint",
     "title": "Face/Body Paint",
-    "count": 30,
+    "count": 18,
     "images": [
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-002.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-003.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-004.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-005.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-006.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-007.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-008.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-009.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-010.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-011.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-012.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-013.jpg",
         "width": 1000,
         "height": 750
       },
@@ -501,6 +441,73 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-030.jpg",
+        "width": 1000,
+        "height": 750
+      }
+    ]
+  },
+  {
+    "slug": "glow-in-the-dark",
+    "title": "Glow in the Dark",
+    "count": 12,
+    "images": [
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-008.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-010.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-012.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-013.jpg",
         "width": 1000,
         "height": 750
       }

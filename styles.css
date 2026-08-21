@@ -765,8 +765,9 @@ h3 {
 
 .portfolio-index {
   position: absolute;
-  right: 0.55rem;
+  left: 50%;
   bottom: 0.55rem;
+  transform: translateX(-50%);
   display: grid;
   place-items: center;
   min-width: 2rem;
