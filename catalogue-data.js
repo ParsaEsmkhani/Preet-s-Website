@@ -39,7 +39,7 @@ window.catalogueCategories = [
   {
     "slug": "traditional",
     "title": "Traditional Designs",
-    "count": 63,
+    "count": 75,
     "images": [
       {
         "src": "assets/catalogue/traditional/traditional-034.jpg",
@@ -355,13 +355,73 @@ window.catalogueCategories = [
         "src": "assets/catalogue/event-additions/traditional/event-traditional-043.jpg",
         "width": 1000,
         "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-044.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-045.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-046.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-047.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-048.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-049.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-050.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-051.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-052.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-053.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-054.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-055.jpg",
+        "width": 1000,
+        "height": 750
       }
     ]
   },
   {
     "slug": "non-traditional",
     "title": "Non-traditional Designs",
-    "count": 43,
+    "count": 47,
     "images": [
       {
         "src": "assets/catalogue/non-traditional/non-traditional-036.jpg",
@@ -577,13 +637,33 @@ window.catalogueCategories = [
         "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-023.jpg",
         "width": 1000,
         "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-024.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-025.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-026.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-027.jpg",
+        "width": 1000,
+        "height": 750
       }
     ]
   },
   {
     "slug": "jagua-gel",
     "title": "Jagua Gel",
-    "count": 18,
+    "count": 22,
     "images": [
       {
         "src": "assets/catalogue/jagua-gel/jagua-gel-001.jpg",
@@ -672,6 +752,26 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-010.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-012.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-013.jpg",
         "width": 1000,
         "height": 750
       }
