@@ -663,7 +663,7 @@ window.catalogueCategories = [
   {
     "slug": "jagua-gel",
     "title": "Jagua Gel",
-    "count": 22,
+    "count": 21,
     "images": [
       {
         "src": "assets/catalogue/jagua-gel/jagua-gel-001.jpg",
@@ -712,11 +712,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-001.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-002.jpg",
         "width": 1000,
         "height": 750
       },
