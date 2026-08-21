@@ -919,6 +919,26 @@ h3 {
   background: #f8eee6;
 }
 
+.event-photo.placeholder {
+  display: grid;
+  place-items: center;
+  min-height: clamp(150px, 18vw, 210px);
+  border: 1px dashed rgba(125, 38, 56, 0.35);
+  border-radius: 6px;
+  background:
+    linear-gradient(145deg, rgba(125, 38, 56, 0.06), rgba(31, 111, 97, 0.07)),
+    rgba(255, 255, 255, 0.65);
+}
+
+.event-photo.placeholder::before {
+  content: "Photo coming soon";
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .news-layout {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1033,6 +1053,71 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.shop-section {
+  padding-top: clamp(2.5rem, 5vw, 4rem);
+}
+
+.cone-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: clamp(1.25rem, 4vw, 3rem);
+  align-items: center;
+}
+
+.cone-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.cone-gallery img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 36px rgba(45, 26, 31, 0.12);
+}
+
+.cone-copy {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, rgba(125, 38, 56, 0.08), rgba(31, 111, 97, 0.08)),
+    var(--surface);
+  box-shadow: 0 16px 42px rgba(45, 26, 31, 0.08);
+}
+
+.cone-copy h3 {
+  margin-bottom: 0.75rem;
+  color: var(--rose);
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+}
+
+.cone-copy p {
+  color: var(--muted);
+}
+
+.ingredients-card {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.ingredients-card strong {
+  color: var(--jade);
+}
+
+.ingredients-card ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--text);
+  font-weight: 700;
 }
 
 .merch-card {
@@ -1266,6 +1351,7 @@ h3 {
   .about-layout,
   .contact-layout,
   .book-feature,
+  .cone-feature,
   .event-feature {
     grid-template-columns: 1fr;
   }
@@ -1287,6 +1373,7 @@ h3 {
   .catalogue-grid,
   .timeline,
   .merch-grid,
+  .cone-gallery,
   .illustration-grid,
   .news-layout,
   .values {
@@ -1372,6 +1459,7 @@ h3 {
   .catalogue-grid,
   .timeline,
   .merch-grid,
+  .cone-gallery,
   .illustration-grid,
   .news-layout,
   .values,
