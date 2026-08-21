@@ -727,7 +727,7 @@ window.catalogueCategories = [
   {
     "slug": "face-body-paint",
     "title": "Kids Face Paint",
-    "count": 34,
+    "count": 32,
     "images": [
       {
         "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-002.jpg",
@@ -771,11 +771,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-017.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-018.jpg",
         "width": 1000,
         "height": 750
       },
@@ -893,18 +888,13 @@ window.catalogueCategories = [
         "src": "assets/catalogue/face-body-paint/face-body-paint-030.jpg",
         "width": 1000,
         "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
-        "width": 1000,
-        "height": 750
       }
     ]
   },
   {
     "slug": "festival-face-paint",
     "title": "Festival Face Paint",
-    "count": 5,
+    "count": 6,
     "images": [
       {
         "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-001.jpg",
@@ -912,7 +902,7 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-004.jpg",
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-016.jpg",
         "width": 1000,
         "height": 750
       },
@@ -927,7 +917,12 @@ window.catalogueCategories = [
         "height": 750
       },
       {
-        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-016.jpg",
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
         "width": 1000,
         "height": 750
       }
