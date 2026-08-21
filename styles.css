@@ -919,6 +919,10 @@ h3 {
   background: #f8eee6;
 }
 
+.event-photo img.event-photo-bottom {
+  object-position: center bottom;
+}
+
 .event-photo.placeholder {
   display: grid;
   place-items: center;
