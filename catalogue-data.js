@@ -355,11 +355,6 @@ window.catalogueCategories = [
     "count": 18,
     "images": [
       {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
         "src": "assets/catalogue/face-body-paint/face-body-paint-014.jpg",
         "width": 1000,
         "height": 750
@@ -443,13 +438,18 @@ window.catalogueCategories = [
         "src": "assets/catalogue/face-body-paint/face-body-paint-030.jpg",
         "width": 1000,
         "height": 750
+      },
+      {
+        "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
+        "width": 1000,
+        "height": 750
       }
     ]
   },
   {
     "slug": "glow-in-the-dark",
     "title": "Glow in the Dark",
-    "count": 12,
+    "count": 11,
     "images": [
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-002.jpg",
@@ -488,11 +488,6 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-009.jpg",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "assets/catalogue/face-body-paint/face-body-paint-010.jpg",
         "width": 1000,
         "height": 750
       },
