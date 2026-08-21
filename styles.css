@@ -924,15 +924,29 @@ h3 {
 }
 
 .book-cover-card {
+  position: relative;
   overflow: hidden;
   width: min(100%, 380px);
   background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
+  border-radius: 4px 8px 8px 4px;
+  box-shadow:
+    0 28px 45px rgba(45, 26, 31, 0.18),
+    10px 14px 0 rgba(125, 38, 56, 0.08);
+}
+
+.book-cover-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: 1;
+  width: 6.5%;
+  background:
+    linear-gradient(90deg, rgba(45, 26, 31, 0.18), rgba(255, 255, 255, 0.16) 42%, rgba(45, 26, 31, 0.06));
+  pointer-events: none;
 }
 
 .book-cover-card img {
+  display: block;
   width: 100%;
   height: auto;
 }
