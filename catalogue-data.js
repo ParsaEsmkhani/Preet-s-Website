@@ -39,7 +39,7 @@ window.catalogueCategories = [
   {
     "slug": "traditional",
     "title": "Traditional Designs",
-    "count": 20,
+    "count": 63,
     "images": [
       {
         "src": "assets/catalogue/traditional/traditional-034.jpg",
@@ -140,13 +140,228 @@ window.catalogueCategories = [
         "src": "assets/catalogue/traditional/traditional-085.jpg",
         "width": 637,
         "height": 850
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-008.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-010.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-012.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-013.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-014.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-015.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-016.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-017.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-018.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-019.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-020.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-021.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-022.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-023.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-024.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-025.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-026.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-027.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-028.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-029.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-030.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-031.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-032.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-033.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-034.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-035.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-036.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-037.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-038.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-039.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-040.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-041.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-042.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/traditional/event-traditional-043.jpg",
+        "width": 1000,
+        "height": 750
       }
     ]
   },
   {
     "slug": "non-traditional",
     "title": "Non-traditional Designs",
-    "count": 20,
+    "count": 43,
     "images": [
       {
         "src": "assets/catalogue/non-traditional/non-traditional-036.jpg",
@@ -247,13 +462,128 @@ window.catalogueCategories = [
         "src": "assets/catalogue/non-traditional/non-traditional-070.jpg",
         "width": 637,
         "height": 850
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-008.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-010.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-012.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-013.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-014.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-015.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-016.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-017.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-018.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-019.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-020.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-021.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-022.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/non-traditional/event-non-traditional-023.jpg",
+        "width": 1000,
+        "height": 750
       }
     ]
   },
   {
     "slug": "jagua-gel",
     "title": "Jagua Gel",
-    "count": 9,
+    "count": 18,
     "images": [
       {
         "src": "assets/catalogue/jagua-gel/jagua-gel-001.jpg",
@@ -299,6 +629,51 @@ window.catalogueCategories = [
         "src": "assets/catalogue/jagua-gel/jagua-gel-006.jpg",
         "width": 850,
         "height": 637
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-008.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/jagua-gel/event-jagua-gel-009.jpg",
+        "width": 1000,
+        "height": 750
       }
     ]
   },
@@ -352,7 +727,7 @@ window.catalogueCategories = [
   {
     "slug": "face-body-paint",
     "title": "Face/Body Paint",
-    "count": 18,
+    "count": 38,
     "images": [
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-014.jpg",
@@ -441,6 +816,153 @@ window.catalogueCategories = [
       },
       {
         "src": "assets/catalogue/face-body-paint/face-body-paint-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-008.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-009.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-010.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-011.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-012.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-013.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-014.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-015.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-016.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-017.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-018.jpg",
+        "width": 750,
+        "height": 1000
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-019.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/face-body-paint/event-face-body-paint-020.jpg",
+        "width": 1000,
+        "height": 750
+      }
+    ]
+  },
+  {
+    "slug": "festival-face-paint",
+    "title": "Festival Face Paint",
+    "count": 8,
+    "images": [
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-001.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-002.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-003.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-004.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-005.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-006.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-007.jpg",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "assets/catalogue/event-additions/festival-face-paint/event-festival-face-paint-008.jpg",
         "width": 1000,
         "height": 750
       }
